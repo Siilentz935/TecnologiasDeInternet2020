@@ -1,0 +1,15 @@
+/* hola*/
+* {
+  text-align: center;
+  color: blue;
+}
+h1{
+	 border:2px solid DodgerBlue;
+	
+}
+p{
+	width: 1000px;
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-image: url(https://images.unsplash.com/photo-1601621951920-01bf59550a08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
