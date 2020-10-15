@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'FontHeader';
+    src: url('fonts/Staatliches-Regular.ttf');
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: sticky;
+}
+
+.topnav a#logoLink:hover {
+	color: green;
+	background-color: #333;
+}
+
+img#navBarLogo {
+	padding: 0px !important;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  }
+
+#divSectionOne{
+	height: 600px;
+}
+
+#divSectionTwo{
+	height: auto;
+	background-image: url("images/sectionTwoCover.jpeg");
+	background-size:100% 100%;
+	margin: 0;
+	display: inline-block;
+}
+#divSectionThree{
+	height: auto;
+}
+
+#divSectionFour{
+	height: 600px;
+}
+
+#coverPhoto {
+	height: 100%;
+	width: 100%
+}
+
+.headerTitle {
+	text-align: center;
+	color: white;
+	font-family: 'FontHeader';
+	margin-top: 20px;
+}
+.headerTitleBlack {
+	text-align: center;
+	color: black;
+	font-family: 'FontHeader';
+	margin-top: 20px;
+}
+
+.textDescription {
+	text-align: justify;
+	color: white;
+	font-size: 22px;
+	margin: 20px;
+}
+
+* {
+    margin: 0;
+}
+
+#valueList{
+	color: white !important;
+	border-style: none;
+	font-size: 22px;
+	display: list-item;
+	margin: 5px;
+	text-align: justify;
+}
+
+ul.valores{
+	color: white;
+	list-style-type: square; !important;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div#form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
