@@ -4,8 +4,16 @@
 }
 
 .topnav {
-  background-color: #333;
+  background-color:rgba(3,3,3);
   overflow: hidden;
+	
+}
+.topnav #logoLink{
+	position:fixed;
+}
+.nav{
+	padding-top: 6px;
+	padding-left: 4%;
 }
 
 .topnav a {
@@ -20,7 +28,10 @@
 
 .topnav a#logoLink:hover {
 	color: green;
-	background-color: #333;
+	webkit-transform: scale(1.5);
+    transform: scale(1.5);
+	background-color:rgba(3,3,3,0.00);
+	
 }
 
 img#navBarLogo {
@@ -31,7 +42,7 @@ img#navBarLogo {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color:rgba(252,252,252,0.76);
   color: black;
 }
 
@@ -51,7 +62,21 @@ img#navBarLogo {
 	display: inline-block;
 }
 #divSectionThree{
-	height: auto;
+	
+	padding: 50px;
+}
+.img{
+	padding-left:10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+	
+}
+.img2{
+	padding-left:17%;
+	padding-right: 17%;
+	padding-bottom: 80px;
+	border-color: rgba(0,0,0,1.00);
+	
 }
 
 #divSectionFour{
@@ -77,6 +102,8 @@ img#navBarLogo {
 }
 
 .textDescription {
+	padding-left: 30px;
+	padding-right: 30px;
 	text-align: justify;
 	color: white;
 	font-size: 22px;
@@ -92,12 +119,14 @@ img#navBarLogo {
 	border-style: none;
 	font-size: 22px;
 	display: list-item;
-	margin: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
 	text-align: justify;
 }
 
 ul.valores{
 	color: white;
+	
 	list-style-type: square; !important;
 }
 
