@@ -64,19 +64,22 @@ img#navBarLogo {
 #divSectionThree{
 	
 	padding: 50px;
+	border: thick solid;
 }
 .img{
-	padding-left:10%;
-	padding-right: 10%;
-	padding-bottom: 50px;
+	padding-left:17%;
+	padding-right: 17%;
+	padding-bottom: 80px;
+	border: outset;
+	border-color: rgba(41,39,39,1.00);
 	
 }
 .img2{
 	padding-left:17%;
 	padding-right: 17%;
 	padding-bottom: 80px;
-	border-color: rgba(0,0,0,1.00);
-	
+	border: outset;
+	border-color: rgba(41,39,39,1.00);
 }
 
 #divSectionFour{
@@ -159,4 +162,7 @@ div#form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+#foot{
+	padding: 7%;
 }
